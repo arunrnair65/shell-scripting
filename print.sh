@@ -13,6 +13,7 @@ echo -e This is "\e[31mRED\e[0m" color
 # \e[COLm  -> To enable color, COL is colorcode
 #\e[0m --> This is to disable the cole from continuing (stop color)
 
+echo "Line1\nLine2"   #\n for new line
 
-
+echo "Tab1\tTab2"   #\t for Tab
 
