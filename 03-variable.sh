@@ -6,4 +6,4 @@ echo $b is my name
 
 #add {} if you dont need space
 
-echo ${a}withoutspace
+echo -e "\e[31m${a}\e[0m"withoutspace
