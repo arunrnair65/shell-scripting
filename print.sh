@@ -16,3 +16,6 @@ echo -e This is "\e[31mRED\e[0m" color
 echo -e "Line1\nLine2"   #\n for new line
 echo -e "Tab1\tTab2"   #\t for Tab
 
+
+tdate = $(date +%F)
+echo -e "todays date is \e[32m $tdate \e[0m"
