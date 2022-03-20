@@ -10,5 +10,5 @@ echo -e "\e[31m${a}\e[0m"withoutspace
 
 
 tdate=$(date +%F)
-echo :todays date is $tdate""
+echo -e todays date is "\e[32m$tdate\e[0m"
 
