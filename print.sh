@@ -18,4 +18,4 @@ echo -e "Tab1\tTab2"   #\t for Tab
 
 
 tdate = $(date +%F)
-echo -e "todays date is \e[32m $tdate \e[0m"
+echo -e todays date is ""\e[32m$tdate\e[0m"
