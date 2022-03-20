@@ -7,3 +7,8 @@ echo $b is my name
 #add {} if you dont need space
 
 echo -e "\e[31m${a}\e[0m"withoutspace
+
+
+tdate=$(date +%F)
+echo :todays date is $tdate""
+

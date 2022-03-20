@@ -17,5 +17,4 @@ echo -e "Line1\nLine2"   #\n for new line
 echo -e "Tab1\tTab2"   #\t for Tab
 
 
-tdate = $(date +%F)
-echo -e "todays date is $tdate"
+
