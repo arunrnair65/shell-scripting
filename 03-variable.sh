@@ -12,3 +12,9 @@ echo -e "\e[31m${a}\e[0m"withoutspace
 tdate=$(date +%F)
 echo -e todays date is "\e[32m$tdate\e[0m"
 echo -e "todays date is \e[32m$tdate\e[0m"
+
+c=10
+d=15
+
+echo "the sum of $c and $d is $((c+d))
+echo "the sum of $c and $d is $(($c+$d))
