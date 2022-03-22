@@ -21,5 +21,6 @@ echo the sum of $c and $d is $(($c+$d))
 
 # myArray[index]=value
 
-a=(1 2 arun shivesh)
+a=(1 2 "arun shivesh")
 echo Array : first number is ${a[0]}
+echo Array : third number is ${a[2]}
