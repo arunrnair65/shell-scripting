@@ -18,3 +18,8 @@ d=15
 
 echo "the sum of $c and $d is $((c+d))"
 echo the sum of $c and $d is $(($c+$d))
+
+# myArray[index]=value
+
+a=(1 2 arun shivesh)
+echo Array : first number is ${a[0]}
