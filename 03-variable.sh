@@ -24,4 +24,4 @@ echo the sum of $c and $d is $(($c+$d))
 a=(1 2 "arun shivesh")
 echo Array : first number is ${a[0]}
 echo Array : third number is ${a[2]}
-echo all values of array is ${c[*]}
+echo all values of array is ${a[*]}
