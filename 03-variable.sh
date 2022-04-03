@@ -26,5 +26,5 @@ echo Array : first number is ${a[0]}
 echo Array : third number is ${a[2]}
 echo Array : all values of array is ${a[*]}
 
-#env variables  "sampleenv"
+#environment variables  "sampleenv"
 echo $SampleEnv
