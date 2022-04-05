@@ -1,2 +1,2 @@
-read -p "Enter the numbers: $1 $2
+read -p "Enter the numbers:" $1 $2
 echo $(($1+$2))
