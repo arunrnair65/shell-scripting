@@ -1,1 +1,1 @@
-echo adding both numbers $((1+2))
+echo adding both numbers $(($1+$2))
