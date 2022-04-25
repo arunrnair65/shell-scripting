@@ -18,3 +18,5 @@ echo -e "\e[32mRestart Service.... \e[0m"
 systemctl enable nginx
 systemctl start nginx
 systemctl restart nginx
+
+
