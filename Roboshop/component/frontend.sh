@@ -9,7 +9,7 @@ fi
 echo -e "\e[32m Installing Nginx... \e[0m"
 yum install nginx -y
 #add error checks
-if [ $? -eq 0] ; then
+if [ $? -eq 0 ] ; then
   echo -e "\e[32Successfully installed nginx..\e[0m"
 else
   echo -e "\e[31mFailed to install nginx...\e[0m"
