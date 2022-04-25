@@ -16,16 +16,16 @@ fi
 #OPerators : ==, !=, -z,
 
 a="abc"
-if [ "$a" == "ABC" ]
+if [ "$a" == "abc" ]
 then
+  echo "both are equal"
+fi
+
+if [ "$a" != "abc" ]; then
   echo "both are not equal"
 fi
 
-if [ "$a" != "abc"]; then
-  echo "both are not equal"
-fi
-
-if [ -z $b]; then
+if [ -z "$b" ]; then
   echo "$b is empty"
 fi
 
