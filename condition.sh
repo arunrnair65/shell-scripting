@@ -1,7 +1,8 @@
 #!/bin/bash
 
 #if condition
-#if [expression] then
+#if [expression]
+# then
 #commands
 #fi
 
