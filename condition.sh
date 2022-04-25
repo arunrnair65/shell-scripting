@@ -16,7 +16,7 @@ fi
 #OPerators : ==, !=, -z,
 
 a="abc"
-if [ "$a" == "abc" ]
+if [ "$a" == "ABC" ]
 then
   echo "both are equal"
 fi
