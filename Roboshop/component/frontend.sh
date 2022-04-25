@@ -3,7 +3,7 @@
 user_id=$(id -u)
 if [ "$user_id" -ne 0 ]; then
  echo -e "\e[31m This is not a root user... \e[0m"
- exit
+ exit 1
 fi
 
 echo -e "\e[32m Installing Nginx... \e[0m"
