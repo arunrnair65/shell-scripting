@@ -1,5 +1,4 @@
 #!/bin/bash
-
 echo -e "\e[32m Installing Nginx... \e[0m"
 yum install nginx -y
 
@@ -8,6 +7,7 @@ curl -s -L -o /tmp/frontend.zip "https://github.com/roboshop-devops-project/fron
 
 echo -e "\e[32m Cleanup new content and extract new content... \e[0m"
 rm -rf /usr/share/nginx/html/*
+cd /usr/share/nginx/html/
 unzip /tmp/frontend.zip
 mv frontend-main/* . -f
 mv static/* . -f
