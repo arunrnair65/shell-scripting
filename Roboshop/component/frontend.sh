@@ -19,7 +19,7 @@ fi
 echo -e "\e[32m Downloading WebContent \e[0m"
 curl -f -s -L -o /tmp/frontend.zip "https://github.com/roboshop-devops-project/frontend/archive/main.zip"
 #add error checks
-if [ $? -eq 0] ; then
+if [ $? -eq 0 ] ; then
   echo -e "\e[32Successfully downloaded content..\e[0m"
 else
   echo -e "\e[31mFailed to download content...\e[0m"
