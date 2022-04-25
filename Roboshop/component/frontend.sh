@@ -1,4 +1,11 @@
 #!/bin/bash
+
+user_id =$(id -u)
+if [ user_id -ne 0 ]; then
+ echo -e "\e[30m This is not a root user... \e[0m"
+ Exit
+fi
+
 echo -e "\e[32m Installing Nginx... \e[0m"
 yum install nginx -y
 
