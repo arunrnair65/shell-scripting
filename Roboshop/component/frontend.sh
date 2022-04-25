@@ -40,7 +40,7 @@ systemctl enable nginx
 systemctl start nginx
 systemctl restart nginx
 
-if [ $? -eq 0] ; then
+if [ $? -eq 0 ] ; then
   echo -e "\e[32Successfully install rob webserver..\e[0m"
 else
   echo -e "\e[31mFailed install rob webserver...\e[0m"
