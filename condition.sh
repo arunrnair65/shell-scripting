@@ -15,13 +15,13 @@ fi
 #1. String Tests
 #OPerators : ==, !=, -z,
 
-a= "abc"
-if [ $a == "ABC" ]
+a="abc"
+if [ "$a" == "ABC" ]
 then
   echo "both are not equal"
 fi
 
-if [$a != "abc"]; then
+if [ "$a" != "abc"]; then
   echo "both are not equal"
 fi
 
