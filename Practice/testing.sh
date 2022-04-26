@@ -3,3 +3,5 @@ if [ "$1" == "arun" ]; then
 else
  echo -e "\e[32m NOT MEEE..\e[0m"
 fi
+
+echo "the error code is :"$?
